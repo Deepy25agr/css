@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: color(srgb rgb(241, 111, 111) green blue);
+}
+.header{
+    text-align: center;
+    margin-top: 20px;
+}
+.header p{
+    font-size: 14px;
+    color: bisque;
+}
+.header h1{
+    font-size: 24px;
+    font-weight:bold;
+
+}
+.search-nav{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.search-bar{
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.nav-links{
+    display: flex;
+    gap: 15px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(101, 82, 86);
+}
+.card-container{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url('captain_A.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    box-shadow: darkslategrey;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+}
+
+.card h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 0%;
+    margin-top: 1px;
+    color:rgb(2, 2, 24);
+}
+.card p{
+    font-size: 12px;
+    color: rgb(239, 242, 242);
+}
+.card1{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url('iron_man_artwork_4k_3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    box-shadow: darkslategrey;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+}
+
+.card1 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-left: 0%;
+    margin-top: 1px;
+    color: rgb(12, 10, 10);
+}
+.card1 p{
+    font-size: 12px;
+    color: rgb(247, 253, 253);
+}
+.card2{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url('black.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    box-shadow: darkslategrey;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+}
+
+.card2 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-left: 0%;
+    margin-top: 1px;
+    color: rgb(10, 9, 9);
+}
+.card2 p{
+    font-size: 12px;
+    color: rgb(227, 235, 236);
+}
+.card3{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url('spiderman.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    box-shadow: darkslategrey;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+}
+
+.card3 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-left: 0%;
+    margin-top: 1px;
+    color: rgb(6, 6, 6);
+}
+.card3 p{
+    font-size: 12px;
+    color: rgb(245, 247, 247);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 11px;
+    width: 80%;
+    padding: 40px;
+    
+    color: #555;
+}
+.footer .center{
+    display: flex;
+    gap: 15px;
+}
+.footer .left{
+    text-align: start;
+}
+.footer .right{
+    text-align: end;
+}
